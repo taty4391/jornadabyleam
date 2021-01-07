@@ -1,0 +1,11 @@
+FRUTAS=['laranja', 'abacaxi', 'banana', 'manga']
+GULOSEIMAS= ['chocolate', 'biscoito', 'salgados', ruffles']
+COMIDAS= ['peixe', 'frango', 'macarrão', 'feijão']
+BEBIDAS= ['refrigerante', 'água', 'suco de limão]
+CATEGORIAS= ['FRUTAS', 'GULOSEIMAS', 'COMIDAS', BEBIDAS]
+COMPRAS= ['frutas', 'guloseimas', 'comidas', 'bebidas']
+for indice, categoria in enumerate (categorias):
+
+print ('você precisa comprar', len (compras [indice]), categoria+':')
+for compra in compras[indice]:
+print ('-', compra)
